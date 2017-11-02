@@ -1,0 +1,130 @@
+style.css
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eee7e1;
+
+}
+body {
+  width: 100%;
+  margin:0;
+}
+header{
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+h1{
+text-align: center;
+}
+
+nav {
+border-bottom: 1px solid black;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 0;
+text-align: center;
+}
+nav a{
+  text-decoration-color: black;
+  color: black;
+}
+nav ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+padding-bottom: 0.4em
+}
+ul {
+    -webkit-padding-start: 0em;
+}
+
+h1, h4, header, nav {
+  font-family: 'Pavanam', sans-serif;
+}
+h4 {
+  margin-bottom: 0;
+}
+
+/* Havde problemer med at få footer til at blive på bunden af siden så brugte
+http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
+-Zune*/
+footer {
+  border-top: 1px solid black;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
+
+img{
+width:100%;
+}
+
+header {
+  font-size: 30px;
+}
+.opening {
+  float: right;
+  clear: both;
+  margin-bottom: 0;
+}
+.opening2 {
+  clear: both;
+  float: right;
+}
+.active {
+  color:brown;
+  border: 1px solid black;
+  text-decoration: none;
+}
+@media screen and (min-width: 800px) {
+nav ul li{
+  display: inline-block ;
+  padding-left: 1em;
+}
+body {
+  margin: 0;
+}
+p, h1, h4{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+footer {
+  width: 100%;
+}
+footer p h1 h4 {
+  margin-left: 0;
+  margin-right: 0;
+}
+img {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.opening {
+  text-align: right;
+}
+.opening2{
+  text-align:right
+}
+.tekst {
+  font-size: 1.5em;
+}
+}
